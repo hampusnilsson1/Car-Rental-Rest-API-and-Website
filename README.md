@@ -14,7 +14,7 @@ To run the project locally, follow these steps:
 - Olle Kjellberg
 - Fredrik Nilback
 
-Made In Sweden using:
+🛠️ Made In Sweden using:
 - Frontend: HTML, CSS, JavaScript
 - Backend: Java
 - Database: MYSQL
