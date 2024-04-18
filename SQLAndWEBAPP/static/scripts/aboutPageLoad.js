@@ -1,0 +1,1 @@
+const Asidemenu = new menu("page-layout");

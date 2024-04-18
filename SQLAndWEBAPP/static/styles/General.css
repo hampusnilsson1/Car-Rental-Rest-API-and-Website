@@ -1,0 +1,11 @@
+@font-face { font-family: RetroVintage; src: url("/static/Fonts/RetroVintage-Regular.otf"); }
+
+body{
+    font-family: RetroVintage;
+    overflow:scroll;
+    margin: 0px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}

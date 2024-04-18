@@ -1,0 +1,78 @@
+
+#page-layout{
+    display: flex;
+    flex-direction: row;
+}
+#searchForm{
+    padding-top: 20px;
+    background-color: rgb(231, 226, 196);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.541);
+}
+#searchheader{
+    margin: 0px auto 5px;
+    text-align: center;
+}
+#searchinputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+}
+.searchfields{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: end;
+}
+.searchinput{
+    width: 150px;
+    padding: 0px;
+    border-style: solid;
+    border-width: 1px;
+}
+.dropbox{
+    width: 152px;
+    padding: 0px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.searchcontainer{
+    margin-bottom: 5px;
+}
+#searchCarsButton{
+    padding: 5px;
+    margin: 10px;
+}
+@media(min-width:1720px){
+    #shopgrid{
+        grid-template-columns: 180px 180px 180px 180px 180px 180px 180px;
+    }
+}
+@media(max-width:1720px) and (min-width:1530px){
+    #shopgrid{
+        grid-template-columns: 180px 180px 180px 180px 180px 180px;
+    }
+}
+@media(max-width:1530px) and (min-width:1340px){
+    #shopgrid{
+        grid-template-columns: 180px 180px 180px 180px 180px;
+    }
+}
+@media(max-width:1340px) and (min-width:1150px){
+    #shopgrid{
+        grid-template-columns: 180px 180px 180px 180px;
+    }
+}
+@media(max-width:1150px){
+    #shopgrid{
+        grid-template-columns: 180px 180px 180px;
+    }
+}
+
+#shopgrid{
+    display: grid;
+    column-gap: 10px;
+    margin: 20px 100px 0px 100px;
+    grid-auto-rows: 180px;
+}

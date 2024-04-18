@@ -1,0 +1,223 @@
+main{
+    flex: 1;
+    
+}
+
+body{
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+html, body{
+    margin: 0;
+    height: 100%;
+}
+.menu-title{
+    margin: 25px;
+}
+
+.content{
+    padding-top: 10px;
+    flex: 1;
+    font-size: large;
+    text-align: left;
+    font-weight: bold;
+}
+#page-layout{
+    display: flex;
+    min-width: 100vh;
+    width: 100%;
+    flex: 1;
+
+}
+header{
+    padding: 2.5%;
+    background-color:rgb(180, 117, 62);
+    width: 94.6%;
+    text-align: left;
+    font-family: "RetroVintage",serif;
+    border: 3px solid rgb(110, 72, 39);
+    
+}
+.header h1{
+    font-size: 1cm;
+} 
+.content-wraper{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container{
+    display: block;
+    width: 100%;
+}
+
+/*menu*/
+aside{
+    background-color: rgb(175, 132, 94);
+    width: 215px;
+    height: 100%;
+    border-right: 3px solid rgb(110, 72, 39);
+    border-left: 3px solid rgb(110, 72, 39);
+   
+}
+
+#menulist li a:hover{
+    color: beige;
+}
+#menulist li a{
+    color: black;
+    transition: color 0.25s;
+}
+
+#contract-body{
+    display: flex;
+    flex-direction: column;
+}
+
+#logoutButton{
+    margin-left: 40px;
+}
+#deleteButton{
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+/*about*/
+#about-us{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-size: 1cm;
+    text-decoration: underline;
+}
+#text-about{
+    margin-left: 50px;
+}
+
+/*cars*/
+.ourCars h1{
+    margin-left: 45px;
+    margin-bottom: 60px;
+    text-decoration-line: underline;
+}
+
+.car{
+    margin-left: 45px;
+}
+
+/*cart*/
+.cartForm{
+    flex-grow: 1;
+    padding: 40px;
+    max-width: 400px;
+}
+.cartForm h1{
+    margin-left: 25px;
+}
+#saveCart{
+    margin-left: 40px;
+}
+.saveForm{
+    margin-top: 60px;
+}
+
+
+/*registration*/
+.input-grid input{
+    width: 100%;
+}
+
+.input-grid{
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.registrationForm {
+    flex-grow: 1;
+    padding: 15px;
+    max-width: 400px;
+}
+.registrationForm h1{
+    margin-left: 45px;
+    text-decoration: underline;
+}
+.buttonContainer{
+    margin-left: 45px;
+}
+
+
+/*profile*/
+.profile h1{
+    margin-left: 250px;
+    text-decoration: underline;
+    font-size: 1cm;
+}
+.user-info{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+#infoText{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+
+/*contract*/
+.contract-container{
+    background-color:whitesmoke; 
+    padding: 20px;
+    border: 3px solid grey; 
+    box-shadow: 0 px 0 px 5 px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    width: 800px;
+    height: auto;
+    overflow: visible;
+  }
+  .user-details-info{
+    font-size: 20px;
+
+  }
+  
+  
+  #deleteAccountButton{
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .contract-container h2{
+    font-size: 1cm;
+  }
+
+/*login*/
+#email{
+    width: auto;
+    display: block;
+    margin-top: 5px;
+}
+#password{
+    width: auto;
+    display: block;
+    margin-top: 5px;
+}
+#loginButton{
+    margin-top: 5px;
+}
+footer{
+    background-color:rgb(180, 117, 62);
+    color: white; 
+    text-align: center;
+    padding: 10px 0;
+    border: 3px solid rgb(110, 72, 39);
+}
+
+
+
+
+

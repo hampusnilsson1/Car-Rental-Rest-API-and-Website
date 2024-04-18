@@ -1,0 +1,85 @@
+.productcontainer{
+    width: 160px;
+    height: 140px;
+    background-image: linear-gradient(rgb(141, 138, 136),rgb(173, 194, 205));
+    margin: 5px 5px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: background-color 0.1s;
+    transition: height 0.1s;
+}
+
+.productcontainer:hover{
+    background-image: linear-gradient(rgb(165, 101, 46),rgb(192, 117, 50));
+    height: 150px;
+    cursor: pointer;
+}
+
+.imgcontainer{
+    width: 160px;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: rgba(126, 61, 1, 0.37);
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.103);
+}
+
+.carimg{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    display: block;
+}
+
+.productinfocontainer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#fullInfoPanel{
+    opacity: 0;
+    pointer-events: none;
+    display: block;
+    background-image: url("/static/images/Paper.png");
+    background-size: 300px 480px;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 200px;
+    height: 480px;
+    overflow: hidden;
+    padding: 80px 60px;
+    transition: all 0.25s;
+}
+
+
+#fullInfoPanel p{
+    color: rgb(61, 61, 61);
+    font-size: 10px;
+}
+#enddate, #startdate{
+    width: 70px;
+}
+
+
+#fullInfoPanel div div p{
+    font-size: 12px;
+}
+
+#rentbutton{
+    padding: 3px 14px;
+    display: block;
+    margin: 10px auto;
+    border-style:inset;
+    border-width: 1px;
+    background-color: rgb(243, 216, 158);
+    border-color: rgb(233, 173, 123);
+    border-radius: 3px;
+}
+#rentbutton:hover{
+    cursor: pointer;
+}
